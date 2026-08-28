@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="spongefile">
+  <style>
+    .w { fill: none; stroke: #101216; stroke-width: 9; stroke-linecap: butt; stroke-linejoin: round; }
+    @media (prefers-color-scheme: dark) { .w { stroke: #f2f4f7; } }
+  </style>
+  <g class="w">
+    <path d="M0 12 L18 5 L36 12 L54 5 L72 12"/>
+    <path d="M0 39.5 L18 32.5 L36 39.5 L54 32.5 L72 39.5"/>
+    <path d="M0 67 L18 60 L36 67 L54 60 L72 67"/>
+  </g>
+</svg>

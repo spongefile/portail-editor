@@ -5,8 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portail Editor — unofficial</title>
     <meta name="description" content="Unofficial browser editor for the eowave Portail MIDI-to-CV interface. Client-side only, no backend." />
-    <script type="module" crossorigin src="./assets/index-RP2oOqo2.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CUx6J6p9.css">
+
+    <!-- Favicon: the spongefile three-waves mark. The SVG is theme-aware (it carries its own
+         prefers-color-scheme) because the browser tab strip follows the BROWSER's theme, not the
+         app's; the PNG fallbacks are single-colour dark-ink for the long-tail browsers. Relative
+         hrefs so they resolve under the /portail-editor/ base (Vite base is './'). -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="favicon-16.png" sizes="16x16" type="image/png" />
+    <link rel="apple-touch-icon" href="favicon-180.png" />
+
+    <!-- Social preview. og:image and og:url MUST be absolute — Facebook won't resolve a relative one. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Portail Editor — unofficial" />
+    <meta property="og:description" content="Unofficial browser editor for the eowave Portail MIDI-to-CV interface. Runs entirely in your browser." />
+    <meta property="og:url" content="https://spongefile.github.io/portail-editor/" />
+    <meta property="og:image" content="https://spongefile.github.io/portail-editor/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="module" crossorigin src="./assets/index-BDquYFdK.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DHrjJHNw.css">
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to editor</a>
