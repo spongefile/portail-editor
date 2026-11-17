@@ -11,3 +11,7 @@ Save-to-preset, and it never writes firmware. Every write is verified by reading
 
 Built with plain TypeScript + Vite. Runs fully client-side over Web MIDI (Chrome/Edge/Android;
 Safari/iOS can edit and export offline but cannot connect).
+
+**Source code, the manual, and the reverse-engineered protocol spec:
+[spongefile/portail](https://github.com/spongefile/portail).** Issues and corrections are
+best raised there — this repository only holds the compiled output.
